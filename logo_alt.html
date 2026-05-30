@@ -23,18 +23,32 @@
             margin: 0;
             font-family: "pausa";
             font-weight: 700;
+            white-space: nowrap;
+        }
+        body {
+            padding: 3.5px 0;
         }
         h1 {
             display: flex;
+            align-items: center;
             margin: 0;
-            font-size: 108px;
+            font-size: 216px;
+            line-height: 1;
+        }
+        h1 span {
+            text-box-trim: trim-both;
+            text-box-edge: cap alphabetic;
+            display: block;
         }
         #s {
             color: #DE3383;
         }
         #and {
+            margin: 0 .375em;
             color: #F5F6F5;
+            font-size: 88.8px;
             font-weight: 400;
+            writing-mode: sideways-lr;
         }
         #m {
             color: #B0E4F7;
